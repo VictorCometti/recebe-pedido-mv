@@ -1,0 +1,41 @@
+Operacao                string `json:"Operacao" validate:"required"`
+	CodigoUnidade           string `json:"CodigoUnidade" validate:"required"`
+	CodigoAtendimento       string    `json:"CodigoAtendimento"`
+	DataAtendimento         string `json:"DataAtendimento"`
+	CodigoMedicoSolicitante string `json:"codigoMedicoSolicitante"`
+	NomeMedicoSolicitante   string `json:"NomeMedicoSolicitante"`
+	CrmMedicoSolicitante    string `json:"CrmMedicoSolicitante"`
+	CodigoConvenio          string `json:"CodigoConvenio"`
+	NomeConvenio            string `json:"NomeConvenio"`
+	CodigoSetorSolicitante  string `json:"CodigoSetorSolicitante"`
+	NomeSetorSolicitante    string `json:"NomeSetorSolicitante"`
+	CodigoSetorExecutante   string `json:"CodigoSetorExecutante"`
+	NomeSetorExecutante     string `json:"NomeSetorExecutante"`
+	CodigoPaciente          string `json:"CodigoPaciente" validate:"required"`
+	NomePaciente            string `json:"NomePaciente" validate:"required"`
+	DataNascimento          string `json:"DataNascimento" validate:"required"`
+	Sexo                    string `json:"Sexo" validate:"required"`
+	Endereco                string `json:"Endereco"`
+	Bairro                  string `json:"Bairro"`
+	Cidade                  string `json:"Cidade"`
+	Uf                      string `json:"Uf"`
+	Cep                     string `json:"Cep"`
+	Telefone                string `json:"Telefone" validate:"required"`
+	Cpf                     string `json:"Cpf" validate:"required"`
+	Email                   string `json:"Email" validate:"required"`
+	Rg                      string `json:"Rg"`
+	Celular                 string `json:"Celular" validate:"required"`
+	NomeSocial              string `json:"NomeSocial"`
+	Cns                     string `json:"cns"`
+	Mae                     string `json:"Mae"`
+	CodigoPedido            string `json:"CodigoPedido" validate:"required"`
+	DataPedido              string `json:"DataPedido" validate:"required"`
+	Acnumber                string `json:"Acnumber" validate:"required"`
+	CodigoExame             string    `json:"CodigoExame" validate:"required"`
+	NomeExame               string `json:"NomeExame"`
+	Observacao              string `json:"Observacao"`
+	Justificativa           string `json:"Justificativa"`
+	AlturaPaciente          string `json:"AlturaPaciente"`
+	PesoPaciente            string `json:"PesoPaciente"`
+	PrescricaoUrgente       string `json:"PrescricaoUrgente"`
+	Modalidade              string `json:"Modalidade"`
